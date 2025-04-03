@@ -1,5 +1,5 @@
 export default function ButtonSignUp() {
     return (
-        <button>SIGN-UP NOW!</button>
+        <button className='btn-sign-up'>SIGN-UP NOW!</button>
     );
 }

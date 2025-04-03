@@ -1,7 +1,7 @@
 export default function SocialLinks() {
     return (
-        <div>
-            <span>FOLLOW US</span>
+        <div className='social-links'>
+            <span className='text-follow'>FOLLOW US</span>
             <img src="/footer-facebook.png" alt="Facebook Logo Link" />
             <img src="/footer-twitter.png" alt="Twitter Logo Link" />
             <img src="/footer-youtube.png" alt="YouTube Logo Link" />

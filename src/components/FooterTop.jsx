@@ -1,7 +1,7 @@
 export default function FooterTop() {
     return (
         <div className='footer-top'>
-            <div className="container container-footer">
+            <div className="container container-footer-top">
                 <div className='footer-links'>
                     <ul className='list-link'>
                         <li className='title-list-link'>DC COMICS</li>
