@@ -65,3 +65,45 @@ main {
     font-size: 20px;
     font-weight: bold;
 }
+
+/** FOOTER **/
+/**FOOTER TOP**/
+
+.footer-top {
+    background-image: url(./assets/img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-footer {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+}
+
+.list-link li:not(.title-list-link) {
+    margin-bottom: 10px;
+}
+
+.title-list-link {
+    color: #fff;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    max-width: 500px;
+    flex-wrap: wrap;
+    color: #959495;
+}
+
+
+
+/**FOOTER BOTTOM**/

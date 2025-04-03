@@ -3,9 +3,11 @@ import SocialLinks from './SocialLinks';
 
 export default function FooterBottom() {
     return (
-        <div>
-            <ButtonSignUp />
-            <SocialLinks />
+        <div className='footer-bottom'>
+            <div className="container">
+                <ButtonSignUp />
+                <SocialLinks />
+            </div>
         </div>
     );
 }
