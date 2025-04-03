@@ -1,8 +1,8 @@
 export default function Menu() {
     return (
-        <ul>
+        <ul className='menu-bar'>
             <li>Characters</li>
-            <li>Comics</li>
+            <li className='menu-active'>Comics</li>
             <li>Movies</li>
             <li>TV</li>
             <li>Games</li>
