@@ -1,7 +1,9 @@
 export default function Main() {
     return (
         <main>
-            -- Content goes here --
+            <div className="container">
+                -- Content goes here --
+            </div>
         </main>
     );
 }

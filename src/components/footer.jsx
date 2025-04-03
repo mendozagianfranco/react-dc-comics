@@ -4,8 +4,10 @@ import FooterTop from './FooterTop';
 export default function Footer() {
     return (
         <footer>
-            <FooterTop />
-            <FooterBottom />
+            <div className="container">
+                <FooterTop />
+                <FooterBottom />
+            </div>
         </footer>
     );
 }
