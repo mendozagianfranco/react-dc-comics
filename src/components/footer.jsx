@@ -1,10 +1,11 @@
 import FooterBottom from './FooterBottom';
 import FooterTop from './FooterTop';
 
-export default function Footer() {
+export default function Footer({ linksFooter }) {
+
     return (
         <footer>
-            <FooterTop />
+            <FooterTop linksFooter={linksFooter} />
             <FooterBottom />
         </footer>
     );
