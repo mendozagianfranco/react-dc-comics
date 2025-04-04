@@ -9,7 +9,8 @@ ul {
     list-style-type: none;
 }
 
-button {
+button,
+a {
     all: unset;
 }
 
