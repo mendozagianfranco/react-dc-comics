@@ -143,3 +143,21 @@ main {
 .icon-links {
     background-color: #0e7cf9;
 }
+
+.container-icon-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #fff;
+}
+
+.card-text {
+    text-transform: uppercase;
+    white-space: nowrap;
+}
