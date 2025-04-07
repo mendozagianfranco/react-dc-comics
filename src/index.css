@@ -12,6 +12,7 @@ ul {
 button,
 a {
     all: unset;
+    cursor: pointer;
 }
 
 /** COMMON**/
@@ -150,14 +151,14 @@ main {
     padding: 30px 0;
 }
 
-.card {
+.card-icon {
     display: flex;
     align-items: center;
     gap: 15px;
     color: #fff;
 }
 
-.card-text {
+.card-icon-text {
     text-transform: uppercase;
     white-space: nowrap;
 }

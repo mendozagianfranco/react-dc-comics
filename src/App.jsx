@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import IconLinks from './components/IconLinks';
+import ListIconLinks from './components/IconLinks/ListIconLinks';
 
 function App() {
     const linksMenu = [
@@ -60,7 +60,7 @@ function App() {
         <>
             <Header linksMenu={linksMenu} />
             <Main />
-            <IconLinks />
+            <ListIconLinks />
             <Footer linksFooter={linksFooter} />
         </>
     );
