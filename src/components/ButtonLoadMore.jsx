@@ -1,7 +1,7 @@
 export default function ButtonLoadMore() {
     return (
-        <>
-            <button>LOAD MORE</button>
-        </>
+        <div className='container-btn-load-more'>
+            <button className='btn-load-more'>LOAD MORE</button>
+        </div>
     );
 }

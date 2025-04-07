@@ -36,6 +36,11 @@ body {
     justify-content: space-between;
 }
 
+.logo-dc {
+    width: 103px;
+    height: 103px;
+}
+
 .menu-bar {
     display: flex;
     align-items: center;
@@ -70,6 +75,43 @@ main {
     padding: 50px 0;
     font-size: 20px;
     font-weight: bold;
+    position: relative;
+}
+
+.badge-main {
+    position: absolute;
+    background-color: #0e7cf9;
+    top: -25px;
+    padding: 10px 30px;
+}
+
+.list-comics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card-comic {
+    width: calc((100% - 250px) /6);
+    margin-bottom: 40px;
+}
+
+.card-comic-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-btn-load-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.btn-load-more {
+    background-color: #0e7cf9;
+    padding: 10px 55px;
 }
 
 /** FOOTER **/
@@ -148,6 +190,7 @@ main {
 .container-icon-links {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 30px 0;
 }
 
